@@ -1,0 +1,57 @@
+crud with react:
+=================
+1. search bar
+2. filter from dropdown
+3. RemoveAll , active, inactive and all button
+https://codesandbox.io/s/funny-dubinsky-sizkpu?file=/src/CRUD/index.js
+
+
+2.crud with react & redux:
+============================
+https://codesandbox.io/s/floral-dew-dbzcwz?file=/src/index.js:83-157
+
+3. Ayush total project:
+=======================
+https://codesandbox.io/s/floral-wind-mhyrid?file=/src/App.js
+
+4. search and pagination:
+==========================
+https://codesandbox.io/s/weathered-forest-7inou7?file=/src/App.js
+
+5. Grid view to list view:
+=============================
+https://codesandbox.io/s/zen-almeida-ybwrzo?file=/src/App.js
+
+6. Create table and press the column for sorting:
+==================================================
+
+https://codesandbox.io/s/goofy-breeze-2kjgyp?file=/src/App.js
+
+7.Create table and press the column for sorting with search and Reset button - used json-server local api
+===========================================================================================================
+https://codesandbox.io/s/nifty-jennings-ewrwt0?file=/src/App.js
+
+8. Modal in react js:
+=====================
+
+https://codesandbox.io/s/awesome-lamarr-hy8hu?file=/src/App.js:0-2527
+https://codesandbox.io/s/nervous-bird-14tyld?file=/src/App.js
+
+9. Only filter by button using bootstrap and react
+===================================================
+
+https://codesandbox.io/s/autumn-framework-rnn310?file=/src/App.js
+
+(food display ahum)
+
+
+10. E-commerce website using React, Redux and Bootstrap with cart details (tablet product):
+============================================================================================
+https://codesandbox.io/s/modern-wave-sm2s3r?file=/src/App.js
+
+
+
+
+
+
+
