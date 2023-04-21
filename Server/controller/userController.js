@@ -5,7 +5,7 @@ const User = require('../model/User');
 const getAllUsers = async(req,res) => {
     try{
        const users = await User.find();
-       res.status(200).json({users, count:users.length})
+       res.status(200).json(users)
     }
     catch(err){
         res.status(500).json(err)
@@ -14,9 +14,9 @@ const getAllUsers = async(req,res) => {
 
 // get single user
 const getSingleUser = async(req,res) => {
-    const {id} = req.params;
+    //const {id} = req.params;
     try {
-        const user = await User.findOne({_id:id})
+        const user = await User.findById(req.params.id);
         res.status(200).json(user)
     }
     catch(err) {
@@ -53,7 +53,7 @@ const deleteUser = async(req,res) => {
     const {id} = req.params;
     try {
         const user = await User.findOneAndDelete({_id:id})
-        res.status(200).json({msg:'user deleted successfully', user})
+        res.status(200).json(user)
         
     }
     catch(err) {
